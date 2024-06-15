@@ -10,5 +10,10 @@ while i <= 10:
 
 print(password)
 
-
-
+i = 0
+while i < len(password):
+  if password[i] == "s":
+    print("This charecter is an s")
+  else:
+    print("This charecter is not an s")
+  i += 1
